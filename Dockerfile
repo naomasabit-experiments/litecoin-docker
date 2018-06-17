@@ -13,4 +13,4 @@ VOLUME ["/opt/litecoin"]
 
 EXPOSE 9332
 
-CMD ["litecoind", "--conf=/opt/litecoin/litecoin.conf", "--printtoconsole"]
+CMD ["litecoind", "--conf=/root/.litecoin/litecoin.conf", "--printtoconsole"]
